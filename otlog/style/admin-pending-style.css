@@ -1,0 +1,33 @@
+body{
+    overflow: hidden;
+}
+.main{
+    background-color: rgb(215, 219, 221);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    border-radius: 10px; 
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.row{
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    margin-bottom: 5%;
+}
+
+table.dataTable thead.sorting, 
+table.dataTable thead.sorting_asc, 
+table.dataTable thead.sorting_desc {
+    background : none;
+}

@@ -1,0 +1,31 @@
+.main{
+	background-color: #fff;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.container{
+	width: 100%;
+	border-radius: 10px;
+	padding-top: 5;
+	box-shadow: 5px 5px 5px grey;
+}
+.row > .banner{
+	color: #000;
+	background: rgb(76,212,136);
+	background: linear-gradient(315deg, rgba(76,212,136,1) 0%, rgba(82,255,151,1) 100%);
+	border-radius: 5px 0px 0px 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 60vh;
+}
+.row > .buttons{
+	background-color: #F2F3F4;
+	border-radius: 0px 5px 5px 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 2%;
+}

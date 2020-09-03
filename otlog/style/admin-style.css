@@ -1,0 +1,19 @@
+.main-div {
+	background-color: whitesmoke;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+/*.container {
+	background-color: whitesmoke;
+	border-radius: 5px;
+	padding: 2%;
+	height: 100vh;
+}
+*/
+.container{
+	padding-top: 30px;
+	height: 70vh;
+}
